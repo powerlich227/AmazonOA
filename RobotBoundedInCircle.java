@@ -29,7 +29,6 @@ Explanation: The robot moves from (0, 0) -> (0, 1) -> (-1, 1) -> (-1, 0) -> (0, 
  
 */
 
-import java.util.*;
 public class RobotBoundedInCircle {
 	public static boolean isRobotBounded(String instruction) {
 		int dir = 0; // north = 0, east = 1, south = 2, west = 3
@@ -56,6 +55,5 @@ public class RobotBoundedInCircle {
 		System.out.println(isRobotBounded(instruction1));
 		System.out.println(isRobotBounded(instruction2));
 		System.out.println(isRobotBounded(instruction3));
-
 	}
 }
