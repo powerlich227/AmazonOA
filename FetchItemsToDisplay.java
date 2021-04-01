@@ -26,11 +26,8 @@ Examples
 Example 1:
 Input:
 sortColumn = 1
-
 sortOrder = 0
-
 pageSize = 2
-
 pageIndex = 1
 
 results = [["foo.com", 10, 15], ["bar.com", 3, 4]. ["baz.com", 17, 8]]
@@ -71,5 +68,4 @@ public class FetchItemsToDisplay {
     	results.put("baz.com", new int[]{17, 8});
     	System.out.println(fetchURLsToDisplay(sortColumn, sortOrder, pageSize, pageIndex, results));
     }
-    	
 }
